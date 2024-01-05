@@ -15,7 +15,8 @@ public class NewTest {
   @Test
   public void MyTest() {
 	  driver.navigate().to("https://www.google.com");
-	  assertEquals("true", "true");
+	  System.out.println("This is change in method");
+	  assertEquals("true", "false");
   }
 
   @BeforeTest
