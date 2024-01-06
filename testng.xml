@@ -3,7 +3,12 @@
 <suite name="MYSuite">
   <test name="AAAATest">
     <classes>
-      <class name="TestNg.NewTest"/>
+      <class name="TestNg.NewTest">
+	      <methods>
+		      <include name="MyTest"/>
+	      </methods>
+      </class>
+
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
